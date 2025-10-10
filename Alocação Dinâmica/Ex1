@@ -1,0 +1,22 @@
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(){
+    int *vetor,i;
+
+    vetor= (int *) malloc (5* sizeof(int));
+   
+    printf("Digite 5 números inteiros:\n");
+    for(i=0;i<5;i++){
+    scanf("%d", &vetor[i]);
+    }
+
+    printf("Vetor digitado:\n");
+    for(i=0;i<5;i++){
+        printf("%d\t",vetor[i]);
+
+    }
+
+    free(vetor);
+
+}
