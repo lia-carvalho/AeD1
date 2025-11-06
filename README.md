@@ -1,2 +1,2 @@
 # AeD1
-Exercícios de revisão
+Exercícios de revisão do Programação Descomplicada 
