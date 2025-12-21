@@ -6,7 +6,6 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Return true if there is a cycle in the linked list. Otherwise, return false.
 
 ### Example: 
-![alt text](image.png)
 
     Input:  head = [3,2,0,-4] , pos = 1
 
